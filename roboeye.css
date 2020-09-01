@@ -1,0 +1,153 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:darkolivegreen;
+    text-align: center;
+}
+h3{
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin: auto;
+}
+.face{
+   width: 170px;
+   background-color:lawngreen;
+   height: 125px;
+   border-radius: 100px 100px 5px 5px;
+   margin: auto;
+   transition: 1.4s ease-in-out;
+   margin-bottom: 14px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px;
+}
+.face:hover{
+    width: 230px;
+    background-color: grey;
+    border-radius: 200px 200px 10px 10px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px;
+}
+.eye1{
+    width: 20px;
+    height: 20px; 
+    background-color:white;
+border-radius: 50% 50% 50% 50%;
+position: relative;
+top: 80px;
+left: 33px;
+box-shadow:rgba(0,0,0,0.8) 0px 5px 15px;
+}
+.eye1:hover{
+background-color: white;
+transition: 1.4s ease-in-out;
+ position: relative;
+ top: 80px;
+ left: 58px;
+ box-shadow:rgba(0,0,0,0.8) 0px 5px 15px;
+}
+.eye2{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+border-radius: 50% 50% 50% 50%;
+position: relative;
+top: 60px;
+left: 105px;
+box-shadow:rgba(0,0,0,0.8) 0px 5px 15px;
+}
+.eye2:hover{
+    background-color: white;
+    transition: 1.4s ease-in-out;
+    position: relative;
+ top: 60px;
+ left: 130px;
+ box-shadow:rgba(0,0,0,0.8) 0px 5px 15px;
+}
+.mainbody{
+    width: 250px; 
+	height: 165px;
+    display: flex; 
+    margin: auto;
+}
+.tummy{
+width: 155px;
+height: 170px;
+background-color:lawngreen;
+border-radius: 0px 0px 45px 45px;
+margin-left: 35px;
+margin: 0 auto;
+display: flex;
+box-shadow:rgba(0,0,0,0.8) 0px 5px 15px;
+}
+.tummy:hover{
+    width: 160px;
+    background-color: grey;
+    border-radius: 35px 35px 40px 40px;
+    transition: 2s ease-in-out;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px;
+}
+.leftarm{
+width: 35px;
+height: 105px;
+background-color:lawngreen;
+margin-left: 4px;
+border-radius: 25px 25px 25px 25px;
+box-shadow:rgba(0,0,0,0.8) 0px 5px 15px;
+}
+.rightarm{
+    width: 35px;
+    height: 105px;
+    background-color:lawngreen;
+    margin-right: 4px;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px;
+    } 
+.leftarm:hover{
+    height: 85px;
+    background-color:grey;
+    transform: rotate(35deg);
+    transition: 1s ease-in-out;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px;
+}
+.rightarm:hover{
+    height: 85px;
+    background-color: grey;
+    transform: rotate(-35deg);
+    transition: 1s ease-in-out;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px;
+}
+.legs{
+    width: 100px;
+    height: 80px;
+    display: flex; 
+    margin: auto;
+}
+.leftleg{
+    width: 35px;
+    height: 90px;
+    background-color:lawngreen;
+    border-radius: 0px 0px 25px 25px;
+    margin-left: 4px;
+    margin-right: 10px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px;
+    }
+.rightleg{
+    width: 35px;
+    height: 90px;
+    background-color:lawngreen;
+    border-radius: 0px 0px 25px 25px;
+    margin-right: 4px;
+    margin-left: 10px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px;
+    }
+.leftleg:hover{
+background-color: grey;
+transform: rotate(35deg);
+transition: 0.8s ease-in-out;
+border-radius: 25px 25px 25px 25px;
+box-shadow:rgba(0,0,0,0.8) 0px 5px 15px;
+}
+.rightleg:hover{
+  background-color:grey;
+  transform: rotate(-35deg);
+  transition: 0.8s ease-in-out;
+  border-radius: 25px 25px 25px 25px;
+  box-shadow:rgba(0,0,0,0.8) 0px 5px 15px;
+}
